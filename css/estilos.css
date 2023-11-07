@@ -1,0 +1,45 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url("../img/arroz.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+ 
+}
+.form-register {
+    width: 400px;
+    background:#E1C78F;
+    padding: 80px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border:3px solid black;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+
+}
+input {
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    padding: 2px;
+  }
+  
+  textarea{
+    border: 1px solid #DCDCDC;
+    border-radius: 2px;
+    padding:2px;
+  }
+.botones{
+ margin-top: 20px;
+
+}
+button{
+    background-color: greenyellow;
+    border: none;
+    padding: 4px;
+}

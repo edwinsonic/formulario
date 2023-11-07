@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <form class="form-register">
+        <h2>Formulario Registro</h2>
+        <label for="productos">
+            Nombre de producto:<br>
+        </label>
+        <input type="text" name="productos" id="productos" placeholder="escriba aqui">
+        <p>Presentacion:<br>
+            <input type="radio" name="bl" value="bl"> Saco de 30k<br>
+            <input type="radio" name="bl" value="bl"> Bolsa de 750<br>
+            <input type="radio" name="bl" value="bl"> Bolsa de 5kg<br>
+        </p>
+        <label for="descripcion">
+            Descripcion General:<br>
+        </label>
+        <textarea name="descripcion" id="descripcion" cols="21" rows="5" placeholder="escriba aqui"></textarea><br>
+        <p>Marca de Arroz: <br>
+            <input type="radio" name="bl" value="bl"> Costeño<br>
+            <input type="radio" name="bl" value="bl"> Faraon<br>
+            <input type="radio" name="bl" value="bl"> Caserita<br>
+        </p>
+
+        <label for="precio">
+            Precio del Arroz:<br>
+        </label>
+        <input type="number" placeholder="escriba aqui"><br>
+        <label for="stock">
+            Stock de Arroz:<br>
+        </label>
+        <input type="number" placeholder="escriba aqui"><br>
+        <label for="foto">
+           Registrar su foto:<br>
+        </label>
+        <input type="file" name="fileToUpload" id="fileToUpload"><br>
+        <div class="botones">
+            <button type="submit">Enviar</button>
+            <button>borrar</button>
+        </div>
+        
+
+        
+    </form>
+</body>
+</html>
